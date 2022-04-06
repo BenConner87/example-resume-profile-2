@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito&family=Roboto+Mono:wght@200;300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito' sans-serif;
+    color: white;
+    background-color: black;
+    line-height: 1.5;
+    width: 100vw;
+}
+
+/* START NAV BAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 5;
+}
+
+.navbar li {
+    font-family: 'roboto mono', sans-serif;
+    font-size: .8rem;
+    color: silver;
+    text-decoration: none;
+    list-style: none;
+    z-index: 5;
+    padding: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a {
+    font-family: 'roboto mono', sans-serif;
+    font-size: .8rem;
+}
+
+.navbar li a:hover {
+    color: rgb(0, 204, 255);
+    text-decoration: overline;
+    z-index: 5;
+}
+/* END NAV BAR */
+
+/* START BACKGROUND IMAGES */
+.background-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 100%;
+    grid-gap: 0px;
+    width: 100vw;
+    height: auto;
+    z-index: -2;
+    overflow: hidden;
+}
+
+#background1 {
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#background2 {
+    grid-column: 1;
+    grid-row: 2;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#background3 {
+    grid-column: 1;
+    grid-row: 3;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#background4 {
+    grid-column: 1;
+    grid-row: 4;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background-stretch {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+/* END BACKGROUND IMAGES */
+
+/* START WELCOME SECTION */
+#welcome-section {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 5vw;
+    left: 0vw;
+    z-index: 2; 
+}
+
+#welcome-section h1 {
+    text-align: left;
+    font-size: 2.5vw;
+    color: white;
+    position: absolute;
+    top: 3vw;
+    left: 13vw;
+}
+
+#welcome-section h2 {
+    text-align: left;
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 8vw;
+    left: 18vw;
+    border-bottom: 1px solid gray;
+    padding-bottom: 3px;
+    border-bottom-width: 1px;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+/* END WELCOME SECTION */
+
+/* START PROJECT SECTION */
+#projects {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 65vw;
+    left: 0vw;
+    z-index: 2;
+}
+
+#projects h3 {
+    text-align: left;
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    border-bottom: 1px solid #40e0d0;
+    border-bottom-width: 1px;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+
+#projectsbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    position: absolute;
+    top: 20vw;
+    left: 2vw;
+    width: 100%;
+    height: auto;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+
+#projectsbar a {
+    margin-right: 11vw;
+    margin-left: 11vw;
+    color: rgb(26, 147, 184);
+    text-decoration: none;
+    z-index: 2;
+}
+
+#projectsbar a:hover {
+    margin-right: 11vw;
+    margin-left: 11vw;
+    color: #40e0d0;
+    font-weight: bold;
+    z-index: 2;
+}
+
+/* END PROJECT SECTION */
+
+/* START SKILLS SECTION */
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 121vw;
+    left: 0vw;
+    z-index: 2;
+}
+
+#skills h3 {
+    text-align: left;
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    border-bottom: 1px solid gray;
+    border-bottom-width: 1px;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+
+#skills h2 {
+    display: block;
+    margin-top: 200px;
+    margin-left: 30px;
+    font-family: 'Roboto',sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+#skills li {
+    list-style: none;
+    color: rgb(210, 113, 129);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+/* END SKILLS SECTION */
+
+/* START CONTACT SECTION */
+#contact {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 206vw;
+    left: 0vw;
+    z-index: 2;
+}
+
+#contact h3 {
+    text-align: left;
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    border-bottom: 1px solid gray;
+    border-bottom-width: 1px;
+}
+
+#contact h6 {
+    text-align: right;
+    font-size: 1.5vw;
+    color: white;
+    list-style: none;
+    position: absolute;
+    top: 12vw;
+    left: 800px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    
+}
+
+#linkedin {
+    width: 5vw;
+    text-align: left;
+    position: absolute;
+    top: 43vw;
+    left: 3vw;
+    opacity: 0.85;
+    z-index: 3;
+}
+
+#instagram {
+    width: 5vw;
+    text-align: left;
+    position: absolute;
+    top: 43vw;
+    left: 9vw;
+    opacity: 0.85;
+    z-index: 3;
+}
+
+#codepen {
+    width: 5vw;
+    text-align: left;
+    position: absolute;
+    top: 43vw;
+    left: 27vw;
+    opacity: 0.85;
+    z-index: 3;
+}
+
+#github {
+    width: 5vw;
+    text-align: left;
+    position: absolute;
+    top: 43vw;
+    left: 21vw;
+    opacity: 0.85;
+    z-index: 3;
+}
+
+#youtube {
+    width: 5vw;
+    text-align: left;
+    position: absolute;
+    top: 43vw;
+    left: 27vw;
+    opacity: 0.85;
+    z-index: 3;
+}
+
+img:hover {
+    filter: brightness(150%)
+}
+
+#logos {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    right: ;
+    top: 3475px;
+    width: 100%;
+    height: 5px;
+    background-color: silver;
+    
+}
+.social-media {
+    display: inline-block;
+    width: 40px; 
+    height: auto; 
+    background-color: white;
+    border-radius: 25%;
+}
+/* END CONTACT SECTION */
+
+/* @media only screen and (max-width: 800px) {
+    header {
+        position: absolute;
+        top: 0px;
+        width: 100vw;
+        height: 2vh;
+        padding: 25px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        opacity: 0.7;
+        z-index: 5;
+    }
+} */
