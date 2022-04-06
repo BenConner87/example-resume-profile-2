@@ -55,7 +55,7 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: 2; 
-    background-image: url(/jumping.jpeg);
+    background-image: url(jumping.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,7 +86,7 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: 2; 
-    background-image: url(/guata.jpeg);
+    background-image: url(guata.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +131,7 @@ body {
 #skills {
     width: 100vw;
     height: 100vh;
-    background-image: url(/jerico.jpeg);
+    background-image: url(jerico.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,7 +197,7 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: 2; 
-    background-image: url(/medellin.jpeg);
+    background-image: url(medellin.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
